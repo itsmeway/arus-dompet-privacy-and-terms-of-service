@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebijakan Privasi — ARUS DOMPET (ArusKas)</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --primary: #0f4c81;
+      --accent: #10b981;
+      --border: #e5e7eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --surface: #111827;
+        --text: #f3f4f6;
+        --muted: #9ca3af;
+        --primary: #60a5fa;
+        --accent: #34d399;
+        --border: #1f2937;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.68;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .header-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-top: 5px solid var(--accent);
+      border-radius: 16px;
+      padding: 28px 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.14);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 12px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      letter-spacing: 0.02em;
+    }
+    .lang-toggle {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .lang-btn {
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.25;
+    }
+    .meta {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      color: var(--primary);
+    }
+    p { margin: 0 0 10px; }
+    p:last-child { margin-bottom: 0; }
+    ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+    li { margin-bottom: 6px; }
+    code {
+      background: rgba(127, 127, 127, 0.12);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.9em;
+    }
+    .hidden { display: none; }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 28px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-card">
+      <div class="badge-row">
+        <span class="badge">ARUS DOMPET (ArusKas) • Google Play Privacy Policy</span>
+        <div class="lang-toggle" role="group" aria-label="Language Switcher">
+          <button id="btn-id" class="lang-btn active" onclick="setLang('id')">Bahasa Indonesia</button>
+          <button id="btn-en" class="lang-btn" onclick="setLang('en')">English</button>
+        </div>
+      </div>
+
+      <h1 id="title-id">Kebijakan Privasi &amp; Keamanan Data — ARUS DOMPET</h1>
+      <h1 id="title-en" class="hidden">Privacy Policy &amp; Data Safety — ARUS DOMPET</h1>
+
+      <p class="meta">
+        <strong>Package ID:</strong> <code>com.aistudio.aruskas.vqmzpx</code> &nbsp;|&nbsp;
+        <span id="updated-id"><strong>Berlaku efektif:</strong> 12 November 2026</span>
+        <span id="updated-en" class="hidden"><strong>Effective Date:</strong> November 12, 2026</span>
+      </p>
+    </div>
+
+    <!-- INDONESIAN VERSION -->
+    <div id="content-id">
+      <div class="section-card">
+        <h2>1. Komitmen Privasi Arus Dompet</h2>
+        <p>
+          <strong>ARUS DOMPET (ArusKas)</strong> dirancang dengan arsitektur <em>Offline-First</em> untuk membantu Anda mencatat dan mengelola keuangan pribadi dengan aman. Seluruh catatan keuangan, saldo dompet/bank yang Anda masukkan, anggaran kategori, tagihan wajib, dan target tabungan adalah milik Anda sepenuhnya dan secara default disimpan secara lokal di perangkat Anda.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>2. Data yang Anda Masukkan &amp; Kelola</h2>
+        <ul>
+          <li><strong>Profil Dasar:</strong> Nama panggilan, preferensi bahasa, negara, dan format mata uang.</li>
+          <li><strong>Catatan Keuangan Manual:</strong> Daftar dompet (Tunai, Bank, E-Wallet, Tabungan), saldo awal, pemasukan, pengeluaran, kategori, tagihan rutin, dan target tabungan yang Anda ketik sendiri. <em>Aplikasi tidak pernah terhubung ke rekening bank atau meminta kata sandi/PIN perbankan Anda.</em></li>
+          <li><strong>Preferensi Asisten Keuangan Pintar Offline:</strong> Gaya komunikasi asisten dan jadwal pengingat harian.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>3. Penggunaan Data &amp; Asisten Keuangan Pintar Offline</h2>
+        <p>
+          Seluruh data transaksi diproses secara lokal di perangkat Anda untuk menghitung saldo siap pakai, memantau batas kategori, menyusun laporan PDF/CSV, serta menjalankan <strong>Asisten Keuangan Pintar Offline</strong> menggunakan basis data SQLite lokal (10.000 kalimat deterministik) tanpa mengirim isi riwayat transaksi Anda ke server AI eksternal.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>4. Penyimpanan Lokal &amp; Keamanan PIN</h2>
+        <ul>
+          <li>Data aplikasi disimpan di ruang penyimpanan internal pribadi aplikasi pada perangkat Anda (<code>SharedPreferences</code> terisolasi dan database lokal <code>SQLite</code>).</li>
+          <li>Apabila Anda mengaktifkan <strong>Kunci PIN Keamanan</strong>, PIN Anda dienkripsi satu arah menggunakan algoritma kriptografi <strong>SHA-256 + 16-byte Cryptographic Random Salt</strong> dan tidak pernah disimpan dalam bentuk teks biasa.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>5. Pembelian ARUS DOMPET PRO (Google Play Billing)</h2>
+        <ul>
+          <li>Pembelian paket berlangganan (Bulanan/Tahunan) maupun sekali bayar (<em>Lifetime</em>) diproses sepenuhnya melalui sistem pembayaran resmi <strong>Google Play Billing (Library 8.0.0)</strong>.</li>
+          <li>ARUS DOMPET <strong>tidak pernah</strong> melihat, mengumpulkan, atau menyimpan nomor kartu kredit, detail e-wallet, atau kata sandi akun pembayaran Anda.</li>
+          <li>Status kepemilikan PRO diverifikasi melalui Google Play Store untuk mengaktifkan atau memulihkan fitur premium di perangkat Anda.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>6. Sinkronisasi Cloud Opsional &amp; Layanan Pihak Ketiga</h2>
+        <ul>
+          <li>Secara default, aplikasi berjalan secara lokal di perangkat Anda tanpa mewajibkan pembuatan akun.</li>
+          <li>Jika Anda secara sukarela memilih fitur masuk dengan Google (<em>Google Sign-In / Credential Manager</em>) untuk sinkronisasi atau analisis cloud opsional, autentikasi dan penyimpanan cadangan Anda ditangani menggunakan layanan Google Firebase (<em>Firebase Authentication, Cloud Firestore, &amp; App Check</em>) milik proyek aplikasi ini.</li>
+          <li>Jika Anda membuat file ekspor <code>.json</code>, <code>.pdf</code>, atau <code>.csv</code>, file tersebut hanya disimpan ke folder atau aplikasi yang Anda pilih secara manual.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>7. Kebijakan Penjualan Data &amp; Iklan</h2>
+        <p>
+          <strong>TIDAK ADA IKLAN &amp; TIDAK ADA PENJUALAN DATA.</strong> ARUS DOMPET bebas dari SDK iklan pihak ketiga. Kami tidak menjual, menyewakan, atau membagikan data keuangan maupun data pribadi pengguna kepada pialang data atau pengiklan mana pun.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>8. Izin Perangkat (Permissions) yang Digunakan</h2>
+        <ul>
+          <li><strong>Notifikasi (<code>POST_NOTIFICATIONS</code>) &amp; Getar (<code>VIBRATE</code>):</strong> Digunakan secara lokal untuk pengingat pencatatan kas harian agar tidak bentrok dengan jam sibuk Anda.</li>
+          <li><strong>Internet &amp; Status Jaringan (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>):</strong> Digunakan hanya untuk verifikasi transaksi Google Play Billing atau layanan Google Firebase opsional apabila Anda menggunakannya.</li>
+          <li><strong>Penagihan Google Play (<code>com.android.vending.BILLING</code>):</strong> Digunakan untuk memproses dan memulihkan pembelian ARUS DOMPET PRO secara resmi melalui Google Play.</li>
+          <li><strong>Pemilih Foto Sistem (Android Photo Picker):</strong> Digunakan hanya secara opsional apabila Anda melampirkan tangkapan layar saat melaporkan bug, tanpa meminta izin akses galeri menyeluruh.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>9. Retensi Data &amp; Cara Menghapus Data</h2>
+        <p>Anda memegang kendali penuh atas seluruh data Anda:</p>
+        <ul>
+          <li>Menghapus transaksi satuan, dompet, atau target tabungan kapan saja langsung dari aplikasi.</li>
+          <li>Menghapus seluruh data keuangan secara permanen melalui menu <strong>Pengaturan → Data, Backup &amp; Penyimpanan → Reset Seluruh Data</strong>, atau dengan mencopot pemasangan (<em>uninstall</em>) aplikasi.</li>
+          <li>Apabila Anda pernah mengaktifkan akun sinkronisasi cloud dan ingin meminta penghapusan data akun cloud terkait, silakan kirim email ke kontak pengembang di bawah dengan subjek <em>"Permintaan Penghapusan Data Akun ARUS DOMPET"</em>.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>10. Privasi Anak-Anak</h2>
+        <p>
+          ARUS DOMPET merupakan aplikasi manajemen keuangan pribadi yang tidak ditujukan untuk anak-anak di bawah usia 13 tahun, dan kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah usia tersebut.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>11. Perubahan Kebijakan &amp; Kontak Resmi Pengembang</h2>
+        <p>
+          Kebijakan privasi ini dapat diperbarui sewaktu-waktu apabila terdapat fitur baru atau penyesuaian regulasi. Jika Anda memiliki pertanyaan, keluhan privasi, atau permintaan penghapusan data, silakan hubungi:
+        </p>
+        <ul>
+          <li><strong>Pengembang:</strong> Tim Pengembang ARUS DOMPET</li>
+          <li><strong>Email Resmi:</strong> <a href="mailto:wayprogramer@gmail.com">wayprogramer@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ENGLISH VERSION -->
+    <div id="content-en" class="hidden">
+      <div class="section-card">
+        <h2>1. Our Privacy Commitment</h2>
+        <p>
+          <strong>ARUS DOMPET (ArusKas)</strong> is built with an <em>Offline-First</em> architecture to help you record and manage your personal finances securely. Your financial records, manually entered wallet/bank balances, category budgets, mandatory bills, and savings goals belong strictly to you and are stored locally on your device by default.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>2. Data You Enter &amp; Manage</h2>
+        <ul>
+          <li><strong>Basic Profile:</strong> Display nickname, language, country, and currency formatting preference.</li>
+          <li><strong>Manual Financial Records:</strong> Wallets (Cash, Bank, E-Wallet, Savings), balances, income/expense transactions, categories, recurring bills, and savings goals entered manually by you. <em>The app never connects directly to your bank account or asks for banking passwords/PINs.</em></li>
+          <li><strong>Offline Financial Assistant Preferences:</strong> Assistant tone preference and daily bookkeeping reminder schedule.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>3. How Data Is Used &amp; Smart Offline Financial Assistant</h2>
+        <p>
+          All transaction data is processed locally on your device to compute safe-to-spend balances, monitor budget limits, generate PDF/CSV exports, and power the <strong>Smart Offline Financial Assistant</strong> using a local SQLite database (10,000 deterministic phrases) without sending your transaction ledger to external AI servers.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>4. Local Storage &amp; PIN Security</h2>
+        <ul>
+          <li>App records are stored in private internal app storage on your device (isolated <code>SharedPreferences</code> and local <code>SQLite</code> database).</li>
+          <li>When <strong>App Security PIN Lock</strong> is enabled, your PIN is one-way hashed using <strong>SHA-256 + 16-byte Cryptographic Random Salt</strong> and is never stored in plain text.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>5. ARUS DOMPET PRO Purchases (Google Play Billing)</h2>
+        <ul>
+          <li>Monthly/Annual subscriptions and one-time <em>Lifetime</em> purchases are processed exclusively through official <strong>Google Play Billing (Library 8.0.0)</strong>.</li>
+          <li>ARUS DOMPET <strong>never</strong> sees, collects, or stores your credit card numbers, e-wallet credentials, or billing account passwords.</li>
+          <li>PRO entitlement states are verified via Google Play Store to unlock or restore premium features on your device.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>6. Optional Cloud Sync &amp; Third-Party Services</h2>
+        <ul>
+          <li>By default, the app operates locally on your device without requiring sign-in.</li>
+          <li>If you voluntarily choose to sign in with Google (<em>Google Credential Manager</em>) for optional cloud sync or cloud features, authentication and synced records are handled by Google Firebase services (<em>Firebase Authentication, Cloud Firestore, &amp; App Check</em>).</li>
+          <li>Manual exports (<code>.json</code>, <code>.pdf</code>, <code>.csv</code>) are written only to folders or share targets explicitly chosen by you.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>7. Zero Ads &amp; No Data Selling</h2>
+        <p>
+          <strong>NO ADS &amp; NO DATA BROKERING.</strong> ARUS DOMPET contains zero third-party advertising SDKs. We do not sell, rent, or trade your personal or financial information to advertisers, data brokers, or third parties.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>8. Device Permissions Used</h2>
+        <ul>
+          <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>) &amp; Vibration (<code>VIBRATE</code>):</strong> Used locally for daily bookkeeping reminders outside your configured busy hours.</li>
+          <li><strong>Internet &amp; Network State (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>):</strong> Used solely for Google Play Billing license verification and optional Google Firebase features if used.</li>
+          <li><strong>Google Play Billing (<code>com.android.vending.BILLING</code>):</strong> Used to process and restore official ARUS DOMPET PRO purchases.</li>
+          <li><strong>Android System Photo Picker:</strong> Used only if you optionally attach a screenshot to a bug report, requiring zero broad storage/gallery permissions.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>9. Data Retention &amp; Deletion</h2>
+        <p>You retain full control over your data at all times:</p>
+        <ul>
+          <li>Delete individual transactions, wallets, or savings targets anytime inside the app.</li>
+          <li>Permanently erase all local financial data via <strong>Settings → Data, Backup &amp; Storage → Reset All Financial Data</strong>, or by uninstalling the app.</li>
+          <li>If you previously used optional cloud sign-in and wish to request deletion of associated cloud records, email the developer contact below with the subject <em>"ARUS DOMPET Account Data Deletion Request"</em>.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <h2>10. Children's Privacy</h2>
+        <p>
+          ARUS DOMPET is a personal financial management application not directed at children under 13 years of age, and we do not knowingly collect personal information from children.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <h2>11. Policy Updates &amp; Developer Contact</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect app improvements or legal requirements. For privacy inquiries or data deletion requests, please contact:
+        </p>
+        <ul>
+          <li><strong>Developer:</strong> ARUS DOMPET Developer Team</li>
+          <li><strong>Official Email:</strong> <a href="mailto:wayprogramer@gmail.com">wayprogramer@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2026 ARUS DOMPET (ArusKas) • All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      const isId = lang === 'id';
+      document.getElementById('content-id').classList.toggle('hidden', !isId);
+      document.getElementById('content-en').classList.toggle('hidden', isId);
+      document.getElementById('title-id').classList.toggle('hidden', !isId);
+      document.getElementById('title-en').classList.toggle('hidden', isId);
+      document.getElementById('updated-id').classList.toggle('hidden', !isId);
+      document.getElementById('updated-en').classList.toggle('hidden', isId);
+      document.getElementById('btn-id').classList.toggle('active', isId);
+      document.getElementById('btn-en').classList.toggle('active', !isId);
+      document.documentElement.lang = lang;
+    }
+  </script>
+</body>
+</html>
